@@ -1,14 +1,64 @@
-<!DOCTYPE html>
+   <!-- <!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
+    <title>Image Search App</title>
+    <link rel="stylesheet" href="./css/example.scss" />
+</head>
+  <body>
+    <div class="container">
+      <h1>Image Search App</h1>
+
+    <form class="search-form" id="search-form">
+      <input
+        type="text"
+        name="searchQuery"
+        autocomplete="off"
+        placeholder="Search images..."
+      />
+      <button type="submit">Search</button>
+    </form>
+    <div class="gallery">
+      <!-- Image cards will be added here dynamically--> 
+    <!-- </div>
+    <div class="image-grid" id="image-grid"></div>
+    <div class="loading-message" id="loading-message"></div>
+    <button type="button" class="load-more">Load more</button>
+    
+    ❗️❗️❗️ Add partials like so for every page-->
+    <!-- <include src="./partials/photo-card.html"></include>
+    <include src="./partials/form.html"></include>
+    <!-- <include src="./partials/example.html"></include> -->
+     
+  <!-- </div> 
+    <script type="module" src="./js/index.js"></script> 
+
+  </body>
+</html>     --> 
+
+<!-- A ====================================================================== -->
+ 
+ <!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 11</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <form class="search-form" id="search-form">
+      <input type="text" name="searchQuery" autocomplete="off" placeholder="Search web images..." />
+      <button type="submit">Search</button>
+    </form>
+
+    <div class="gallery"></div>
+    <div class="image-grid" id="image-grid"></div> 
+    <div class="delimiter"></div>
+       <div  class="spinner hidden"></div>  
+    
+  
+    <script type="module" src="./js/index.js"></script>
   </body>
-</html>
+</html> 
